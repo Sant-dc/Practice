@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Home</h1>
+<div class="row row-cols-1 row-cols-md-3 g-4" style="border: 100px black;">
+  <div class="col">
+    <div class="card" style="width: 18rem; ">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Mango_-_single.jpg/640px-Mango_-_single.jpg"
+        class="card-img-top" style="height: max-content;" alt="mango">
+      <div class="card-body">
+        <h5 class="card-title">Mango</h5>
+        <p class="card-text">I don't know... I love to eat mango, that's why I put the image here ♥.</p>
+        <a href="https://en.wikipedia.org/wiki/Mango" class="btn btn-primary" target="_blank">Go to Wiki</a>
+      </div>
+    </div>
+  </div>
+  <!-- QUITAR ARRIBA Y ABAJO  -->
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="https://ih1.redbubble.net/image.5122006832.7533/tapestry,720x-pad,600x600,f8f8f8.jpg"
+        class="card-img-top" alt="Guinea pig">
+      <div class="card-body">
+        <h5 class="card-title">Guinea pig</h5>
+        <p class="card-text">A beautiful guinea pig because they're so cute.</p>
+        <a href="https://en.wikipedia.org/wiki/Guinea_pig" class="btn btn-primary" target="_blank">Go to Wiki</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <img src="https://img.freepik.com/vector-premium/signo-interrogacion-rojo-grande_122818-781.jpg?w=2000"
+        class="card-img-top" alt="idk">
+      <div class="card-body">
+        <h5 class="card-title">Incognite</h5>
+        <p class="card-text">I don't know how to fix the height from the picture 1.</p>
+        <a href="https://en.wikipedia.org/wiki/Guinea_pig" class="btn btn-primary" target="_blank">Go to Wiki</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
